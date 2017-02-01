@@ -51,7 +51,7 @@
 }
 
 .image {
-	position: fixed;
+	position: absolute;
 	height: 450%;
 }
 
