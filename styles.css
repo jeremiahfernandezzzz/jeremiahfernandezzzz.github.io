@@ -292,7 +292,7 @@
 
 .php {
 	position: fixed;
-	background: url(../skills/php.png);
+	background: url(../image/php.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 650px;
@@ -304,7 +304,7 @@
 }
 .mysql {
 	position: fixed;
-	background-image: url(../skills/mysql.png);
+	background-image: url(../image/mysql.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 650px;
@@ -317,7 +317,7 @@
 
 .cpp {
 	position: fixed;
-	background-image: url(../skills/cpp.png);
+	background: url(../image/cpp.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 455px;
