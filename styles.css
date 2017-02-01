@@ -1,0 +1,475 @@
+@keyframes animate-char{
+	from {background-position: 0px;}
+	to {background-position: -600px;}
+}
+
+@keyframes animate-char2{
+	from {background-position: -600px;}
+	to {background-position: 0px;}
+}
+
+@keyframes animate-char3{
+	from {background-position: -750px;}
+	to {background-position: -1350px;}
+}
+
+@keyframes animate-char4{
+	from {background-position: -1350px;}
+	to {background-position: -750px;}
+}
+
+@keyframes animate-char5{
+	from {background-position: -1500px;}
+	to {background-position: -2100px;}
+}
+
+@keyframes animate-char6{
+	from {background-position: -2100px;}
+	to {background-position: -1500px;}
+}
+
+@keyframes jump-char{
+	0% {bottom: 8vh;}
+	20% {bottom: 15vh;}
+	100% {bottom: 8vh;}
+}
+
+@keyframes animate-moon {
+	0% {transform: rotate(0deg)}
+	25% {transform: rotate(15deg)}
+	50% {transform: rotate(30deg)}
+	75% {transform: rotate(15deg)}
+	100% {transform: rotate(0deg)}
+}
+
+@keyframes sidescroll{
+	from { transform: translate( 0px, 0px) }
+	to { transform: translate( 8000px, -10px) }
+}
+
+@keyframes sidescroll2{
+	from { transform: translate( 0px, 0px) }
+	to { transform: translate( -8000px, -10px) }
+}
+
+.bg {
+	position: absolute;
+	width: 9500%;
+	height: 100vh;
+	//transition : transform 0.2s;
+}
+
+.image{
+	position: relative;
+	background-size: contain;;
+	width: 100%;
+	height: 500%;
+}
+
+.ground {
+	position: absolute;
+	bottom: 0vh;
+	width: 100%;
+	height: 10vh;
+	background-color: #030012;
+	z-index: 97;
+}
+
+.sky-1 {
+	float: left;
+	width: 500px;
+	height: 100%;
+	background-color: #44A9E1;
+}
+
+.sky-2 {
+	float: left;
+	width: 500px;
+	height: 100%;
+	background-color: #008DDB;
+}
+
+.sky-3 {
+	float: left;
+	width: 500px;
+	height: 100%;
+	background-color: #007BBF;
+}
+.sky-a {
+	float: left;
+	width: 33vw;
+	height: 100%;
+	background-color: #415787;
+}
+
+.sky-b {
+	float: left;
+	width: 33vw;
+	height: 100%;
+	background-color: #486196;
+}
+
+.sky-c {
+	float: left;
+	width: 33vw;
+	height: 100%;
+	background-color: #3D69A6;
+}
+
+.sky-d {
+	float: left;
+	width: 500px;
+	height: 100%;
+	background-color: #487ABD;
+}
+
+.cloud-parallax {
+	position: absolute;
+	width: 9500%;
+	float: left;
+}
+
+.cloud-container {
+	position: relative;
+	float: left;
+	width: 500px;
+	height: 100vh;
+}
+
+.cloud-1 {
+	position: absolute;
+	width: 234px;
+	height: 78px;
+	left: 50%;
+	top: 25%;
+	background-image: url(../image/cloud.png);
+}
+
+.cloud-2 {
+	position: absolute;
+	width: 234px;
+	height: 78px;
+	left: 50%;
+	top: 10%;
+	background-image: url(../image/cloud.png);
+}
+
+.cloud-static{
+	position: absolute;
+	width: 234px;
+	height: 78px;
+	left: 50%;
+	top: 17%;
+	background-image: url(../image/cloud.png);
+}
+
+.cloud-fast {
+	animation: sidescroll 85.0s infinite;
+}
+
+.cloud-slow {
+	animation: sidescroll2 200.0s infinite;
+}
+
+.object-parallax {
+	position: absolute;
+	width: 9500%;
+	z-index: 98;
+	//transition : transform 0.2s;
+}
+
+.object-parallax2 {
+	left: -5%;
+	position: absolute;
+	width: 9500%;
+	//transition : transform 0.2s;
+	z-index: 97;
+}
+
+.object-container {
+	float: left;
+	width: 500px;
+	height: 100vh;
+}
+
+.dialog {
+	background: url(../image/dialog.png);
+	position: fixed;
+	width: 240px;
+	height: 180px;
+	bottom: 30vh;
+	text-align: center;
+	font-size: 17pt;
+	font-family: slkscr;
+	z-index: 99;
+	color: grey;
+}
+
+.title {
+	position: fixed;
+	text-align: center;
+	font-family: Pixeled;
+	z-index: 99;
+	color: grey;
+	top: 62.5vh;
+	left: 30vw;
+}
+
+.hospital {
+	position: fixed;
+	background: url(../image/hospital.png);
+	width: 700px;
+	height: 455px;
+	bottom: -100vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+}
+
+.grade-school {
+	position: fixed;
+	background: url(../image/grade-school.png);
+	width: 700px;
+	height: 455px;
+	top: -100vh;
+	font-size: 14pt;
+	font-family: Pixeled;
+	transform: rotate(180deg) scaleX(-1);;
+}
+
+.rotate-text {
+	text-align: center;
+	left: 150px;
+	top: 30px;
+	position: fixed;
+	transform: rotate(180deg) scaleX(-1);
+}
+
+.high-school {
+	position: fixed;
+	background: url(../image/high-school.png);
+	width: 700px;
+	height: 455px;
+	bottom: -100vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+}
+
+.skill-set {
+	position: fixed;
+	background: url(../image/otherskills-billboard.png);
+	width: 700px;
+	height: 455px;
+	top: -100vh;
+}
+
+.skill-text {
+	position: relative;
+	top: 200px;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+	color: grey;
+}
+
+.otherskill-set {
+	position: fixed;
+	background: url(../image/otherskills-billboard.png) no-repeat;
+	width: 700px;
+	height: 455px;
+	top: -100vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+}
+
+.otherskill-set2 {
+	position: fixed;
+	background: url(../image/otherskills-billboard.png);
+	width: 700px;
+	height: 455px;
+	top: -100vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+}
+
+.contact-form {
+	position: fixed;
+	background: url(../image/contact-form.png);
+	width: 700px;
+	height: 455px;
+	bottom: -100vh;
+	text-align: center;
+	font-size: 17pt;
+	font-family: slkscr;
+}
+
+.php {
+	position: fixed;
+	background: url(../skills/php.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 485px;
+	bottom: -100vh;
+	text-align: center;
+	font-size: 17pt;
+	font-family: slkscr;
+}
+.mysql {
+	position: fixed;
+	background-image: url(../skills/mysql.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 500px;
+	bottom: -100vh;
+	text-align: center;
+	font-size: 17pt;
+	font-family: slkscr;
+}
+
+.cpp {
+	position: fixed;
+	background-image: url(../skills/cpp.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 455px;
+	height: 550px;
+	bottom: -100vh;
+	text-align: center;
+	font-size: 17pt;
+	font-family: slkscr;
+}
+
+.javascript {
+	position: fixed;
+	background: url(../image/javascript.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 500px;
+	top: -100vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+}
+
+.css {
+	position: fixed;
+	background: url(../image/css.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 550px;
+	top: -100vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+}
+
+.html {
+	position: fixed;
+	background: url(../image/html.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 600px;
+	top: -100vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+}
+
+#contact-info {
+	z-index: 100;
+	font-size: 22pt;
+	font-family: slkscr;
+	text-align: center;
+	color:white;
+}
+
+#sun {
+	position: fixed;
+	background: url(../image/sun.png);
+	left: 1340px;
+	width: 160px;
+	height: 160px;
+	bottom: -15vh;
+	//transition: transform .2s;
+}
+
+#moon {
+	position: absolute;
+	left: 15%;
+	bottom: -15vh;
+	width: 160px;
+	height: 160px;
+	background: url(../image/moon.png);
+	//transition: transform .2s;
+}
+
+@font-face {
+	font-family: Pixeled;
+	src: url(../font/Pixeled.ttf)
+}
+
+@font-face {
+	font-family: slkscr;
+	src: url(../font/slkscr.ttf)
+}
+
+.char {
+	position: absolute;
+	z-index: 97;
+	width: auto;
+	left: 40vw;
+}
+
+#kramer {
+	position: fixed;
+	width: 150px;
+	height: 198px;
+	background: url(../image/kramer_sprites.png);
+	bottom: 10vh;
+	animation: jump-char 1.0s infinite;
+	//transition: bottom 1.0s;
+	text-align: center;
+	font-family: Pixeled;
+	font-size: 0;
+}
+
+.ghost {
+	position: fixed;
+	background: url(../image/ghibli_ghost.png);
+	width: 150px;
+	height: 500px;
+	top: -15vh;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
+	animation: animate-char2 1.0s steps(4) infinite;
+	transform: rotate(180deg) scaleX(-1) scale(.80);
+	color: grey;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;s
+}
+
+.rotator {
+		position: fixed;
+		background-image: url(../image/contact-form.png);
+		background-repeat: no-repeat;
+		width: 700px;
+		height: 1500px;
+		bottom: -155vh;
+		transform: rotate(90deg);
+}
