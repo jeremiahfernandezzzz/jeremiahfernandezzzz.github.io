@@ -141,7 +141,7 @@
 }
 
 .title {
-	position: fixed;
+	position: absolute;
 	text-align: center;
 	font-family: Pixeled;
 	z-index: 99;
@@ -151,7 +151,7 @@
 }
 
 .hospital {
-	position: fixed;
+	position: absolute;
 	background: url(../image/hospital.png);
 	width: 700px;
 	height: 455px;
@@ -163,7 +163,7 @@
 }
 
 .grade-school {
-	position: fixed;
+	position: absolute;
 	background: url(../image/grade-school.png);
 	width: 700px;
 	height: 455px;
@@ -178,12 +178,12 @@
 	text-align: center;
 	left: 150px;
 	top: 30px;
-	position: fixed;
+	position: absolute;
 	transform: rotate(180deg) scaleX(-1);
 }
 
 .high-school {
-	position: fixed;
+	position: absolute;
 	background: url(../image/high-school.png);
 	width: 700px;
 	height: 455px;
@@ -195,7 +195,7 @@
 }
 
 .skill-set {
-	position: fixed;
+	position: absolute;
 	width: 700px;
 	height: 455px;
 	top: -100vh;
@@ -211,7 +211,7 @@
 }
 
 .otherskill-set {
-	position: fixed;
+	position: absolute;
 	width: 700px;
 	height: 455px;
 	top: -100vh;
@@ -221,7 +221,7 @@
 }
 
 .php {
-	position: fixed;
+	position: absolute;
 	background: url(../image/php.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -235,7 +235,7 @@
 }
 
 .mysql {
-	position: fixed;
+	position: absolute;
 	background-image: url(../image/mysql.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -249,7 +249,7 @@
 }
 
 .cpp {
-	position: fixed;
+	position: absolute;
 	background-image: url(../image/cpp.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -263,7 +263,7 @@
 }
 
 .javascript {
-	position: fixed;
+	position: absolute;
 	background: url(../image/javascript.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -277,7 +277,7 @@
 }
 
 .css {
-	position: fixed;
+	position: absolute;
 	background: url(../image/css.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -291,7 +291,7 @@
 }
 
 .html {
-	position: fixed;
+	position: absolute;
 	background: url(../image/html.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -343,7 +343,7 @@
 }
 
 .ghost {
-	position: fixed;
+	position: absolute;
 	background: url(../image/ghibli_ghost.png);
 	width: 150px;
 	height: 500px;
@@ -367,7 +367,7 @@ body {
 }
 
 .rotator {
-		position: fixed;
+		position: absolute;
 		background-image: url(../image/contact-form.png);
 		background-repeat: no-repeat;
 		width: 700px;
