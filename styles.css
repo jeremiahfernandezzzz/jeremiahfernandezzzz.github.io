@@ -80,7 +80,7 @@
 	left: 50%;
 	top: 25%;
 	background-image: url(../image/cloud.png);
-	opacity: 0.9;
+	opacity: 0.5;
 }
 
 .cloud-2 {
@@ -90,7 +90,7 @@
 	left: 50%;
 	top: 10%;
 	background-image: url(../image/cloud.png);
-	opacity: 0.9;
+	opacity: 0.5;
 }
 
 .cloud-fast {
@@ -349,7 +349,7 @@
 	animation: animate-char2 1.0s steps(4) infinite;
 	transform: rotate(180deg) scaleX(-1) scale(.80);
 	color: grey;
-	opacity: 0.9;
+	opacity: 0.5;
 }
 
 * {
