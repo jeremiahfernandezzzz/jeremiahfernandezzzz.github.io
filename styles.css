@@ -51,6 +51,7 @@
 }
 
 .image {
+	position: fixed;
 	height: 450%;
 }
 
