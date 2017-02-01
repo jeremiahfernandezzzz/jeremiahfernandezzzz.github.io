@@ -50,6 +50,10 @@
 	height: 100vh;
 }
 
+.image {
+	height: 450%;
+}
+
 .ground {
 	position: absolute;
 	bottom: 0vh;
