@@ -48,7 +48,6 @@
 	position: absolute;
 	width: 9500%;
 	height: 100vh;
-	//transition : transform 0.2s;
 }
 
 .image{
@@ -243,7 +242,7 @@
 
 .php {
 	position: fixed;
-	background: url(../skills/php.png);
+	background: url(../image/php.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 650px;
@@ -255,7 +254,7 @@
 }
 .mysql {
 	position: fixed;
-	background-image: url(../skills/mysql.png);
+	background-image: url(../image/mysql.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 650px;
@@ -268,7 +267,7 @@
 
 .cpp {
 	position: fixed;
-	background-image: url(../skills/cpp.png);
+	background-image: url(../image/cpp.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 455px;
