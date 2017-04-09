@@ -377,5 +377,9 @@ body {
 }
 
 .asd {
+	position: absolute;
+	text-align: center;
+	font-size: 14pt;
+	font-family: Pixeled;
 	color: white;
 }
