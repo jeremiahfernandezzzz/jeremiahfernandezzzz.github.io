@@ -148,7 +148,7 @@ function switchChar(opt_attributes, expectedNumberOfNonCommentArgs, lastArrayIdS
  * @return {undefined}
  */
 function runTheseFunctionsOnLoad() {
-  window[_0xfa52[34]](go, 1);
+  window[_0xfa52[34]](go, 10);
   initialDialog();
   showDialog();
   kramerStatic();
