@@ -345,6 +345,7 @@
 .ghost {
 	position: absolute;
 	background: url(../image/ghibli_ghost.png);
+	background-repeat: no-repeat;
 	width: 150px;
 	height: 500px;
 	top: -15vh;
@@ -371,7 +372,7 @@ body {
 		background-image: url(../image/contact-form.png);
 		background-repeat: no-repeat;
 		width: 700px;
-		height: 1490px;
-		bottom: -155vh;
+		height: 500px;
+		bottom: -100vh;
 		opacity: 0.9;
 }
