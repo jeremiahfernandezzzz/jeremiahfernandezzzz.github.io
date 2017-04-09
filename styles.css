@@ -345,7 +345,6 @@
 .ghost {
 	position: absolute;
 	background: url(../image/ghibli_ghost.png);
-	background-repeat: no-repeat;
 	width: 150px;
 	height: 500px;
 	top: -15vh;
