@@ -367,11 +367,15 @@ body {
 }
 
 .rotator {
-		position: absolute;
-		background-image: url(../image/contact-form.png);
-		background-repeat: no-repeat;
-		width: 700px;
-		height: 450px;
-		bottom: -120vh;
-		opacity: 0.9;
+	position: absolute;
+	background-image: url(../image/contact-form.png);
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 450px;
+	bottom: -120vh;
+	opacity: 0.9;
+}
+
+.asd {
+	text-decoration-color: white;
 }
