@@ -158,7 +158,6 @@ function runTheseFunctionsOnLoad() {
  * @return {undefined}
  */
 function go() {
-  event.preventDefault();
   if (boolGo == true && objects_parallax >= -20170) {
     forward();
     hideInitialDialog();
