@@ -157,19 +157,12 @@ function absorbEvent(event) {
   return false;
 }
 
-function preventLongPressMenu() {
-  window.ontouchstart = absorbEvent();
-  window.ontouchmove = absorbEvent();
-  window.ontouchend = absorbEvent();
-  window.ontouchcancel = absorbEvent();
-}
-
-function init() {
-  preventLongPressMenu();
-}
+window("touchstart", absorbEvent, false);
+window("touchmove", absorbEvent, false);
+window("touchend", absorbEvent, false);
+window("touchcancel", absorbEvent, false);
 
 function runTheseFunctionsOnLoad() {
-  init();
   window[_0xfa52[34]](go, 10);
   initialDialog();
   showDialog();
