@@ -157,10 +157,10 @@ function absorbEvent(event) {
   return false;
 }
 
-window("touchstart", absorbEvent, false);
-window("touchmove", absorbEvent, false);
-window("touchend", absorbEvent, false);
-window("touchcancel", absorbEvent, false);
+window.addEventListener("touchstart", absorbEvent, false);
+window.addEventListener("touchmove", absorbEvent, false);
+window.addEventListener("touchend", absorbEvent, false);
+window.addEventListener("touchcancel", absorbEvent, false);
 
 function runTheseFunctionsOnLoad() {
   window[_0xfa52[34]](go, 10);
