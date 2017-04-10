@@ -148,7 +148,7 @@ function switchChar(opt_attributes, expectedNumberOfNonCommentArgs, lastArrayIdS
  * @return {undefined}
  */
 
-function absorbEvent_(event) {
+function absorbEvent(event) {
   var e = event || window.event;
   e.preventDefault && e.preventDefault();
   e.stopPropagation && e.stopPropagation();
@@ -157,15 +157,15 @@ function absorbEvent_(event) {
   return false;
 }
 
-function preventLongPressMenu(node) {
-  node.ontouchstart = absorbEvent_;
-  node.ontouchmove = absorbEvent_;
-  node.ontouchend = absorbEvent_;
-  node.ontouchcancel = absorbEvent_;
+function preventLongPressMenu() {
+  window.ontouchstart = absorbEvent();
+  window.ontouchmove = absorbEvent();
+  window.ontouchend = absorbEvent();
+  window.ontouchcancel = absorbEvent();
 }
 
 function init() {
-  preventLongPressMenu(document);
+  preventLongPressMenu();
 }
 
 function runTheseFunctionsOnLoad() {
