@@ -145,7 +145,6 @@ function switchChar(opt_attributes, expectedNumberOfNonCommentArgs, lastArrayIdS
 /**
  * @return {undefined}
  */
-/*
 function absorbEvent(event) {
   var e = event || window.event;
   e.preventDefault && e.preventDefault();
@@ -159,7 +158,7 @@ window.addEventListener("touchstart", absorbEvent, false);
 window.addEventListener("touchmove", absorbEvent, false);
 window.addEventListener("touchend", absorbEvent, false);
 window.addEventListener("touchcancel", absorbEvent, false);
-*/
+
 function runTheseFunctionsOnLoad() {
   window[_0xfa52[34]](go, 10);
   initialDialog();
