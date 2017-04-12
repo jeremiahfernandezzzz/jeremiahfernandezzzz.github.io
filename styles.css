@@ -145,7 +145,7 @@
 	text-align: center;
 	font-family: Pixeled;
 	z-index: 99;
-	color: red;
+	color: white;
 	top: 42.5vh;
 	left: 36vw;
 }
@@ -297,7 +297,7 @@
 	background-repeat: no-repeat;
 	width: 700px;
 	height: 600px;
-	top: -100vh;
+	top: -90vh;
 	text-align: center;
 	font-size: 14pt;
 	font-family: Pixeled;
