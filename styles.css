@@ -132,7 +132,7 @@
 	position: fixed;
 	width: 240px;
 	height: 180px;
-	bottom: 175px;
+	bottom: 225px;
 	text-align: center;
 	font-size: 17pt;
 	font-family: slkscr;
@@ -146,7 +146,7 @@
 	font-family: Pixeled;
 	z-index: 99;
 	color: white;
-	bottom: -375px;
+	bottom: -350px;
 	left: 35vw;
 }
 
