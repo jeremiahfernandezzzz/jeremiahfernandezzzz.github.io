@@ -160,6 +160,13 @@ function runTheseFunctionsOnLoad() {
   initialDialog();
   showDialog();
   kramerStatic();
+	window.addEventListener("mouseup", function() {
+		window.setTimeout(hideDialog, 1000);
+	}, false);
+
+	window.addEventListener("touchend", function() {
+		window.setTimeout(hideDialog, 1000);
+	}, false);
 }
 /**
  * @return {undefined}
@@ -208,13 +215,11 @@ window.addEventListener("touchstart", auto, false);
 window.addEventListener("touchend", function() {
   auto();
   kramerStatic();
-  window.setTimeout(hideDialog, 10);
 }, false);
 window.addEventListener("mousedown", auto, false);
 window.addEventListener("mouseup", function() {
   auto();
   kramerStatic();
-  window.setTimeout(hideDialog, 10);
 }, false);
 
 /**
