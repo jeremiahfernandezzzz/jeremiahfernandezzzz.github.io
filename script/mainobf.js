@@ -208,13 +208,13 @@ window.addEventListener("touchstart", auto, false);
 window.addEventListener("touchend", function() {
   auto();
   kramerStatic();
-  window.setTimeout(hideDialog, 2E3);
+  window.setTimeout(hideDialog, 10);
 }, false);
 window.addEventListener("mousedown", auto, false);
 window.addEventListener("mouseup", function() {
   auto();
   kramerStatic();
-  window.setTimeout(hideDialog, 2E3);
+  window.setTimeout(hideDialog, 10);
 }, false);
 
 /**
