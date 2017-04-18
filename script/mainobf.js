@@ -189,13 +189,6 @@ function go() {
     objectUp(".mysql", -16250);
     objectUp(".php", -17250);
     objectUp(".rotator", -19600);
-	window.addEventListener("mouseup", function() {
-		window.setTimeout(hideDialog, 2E3);
-	}, false);
-	
-	window.addEventListener("touchend", function() {
-		window.setTimeout(hideDialog, 2E3);
-	}, false);
   }
 }
 /**
@@ -215,11 +208,13 @@ window.addEventListener("touchstart", auto, false);
 window.addEventListener("touchend", function() {
   auto();
   kramerStatic();
+  window.setTimeout(hideDialog, 2E3);
 }, false);
 window.addEventListener("mousedown", auto, false);
 window.addEventListener("mouseup", function() {
   auto();
   kramerStatic();
+  window.setTimeout(hideDialog, 2E3);
 }, false);
 
 /**
