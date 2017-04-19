@@ -310,12 +310,17 @@ function auto_reverse() {
 window.addEventListener("load", runTheseFunctionsOnLoad, false);
 //window.addEventListener("touchstart", auto, false);
 window.addEventListener("touchend", function() {
-  auto();
+  boolGo = false;
+	boolGo_reverse = false
   kramerStatic();
 }, false);
-window.addEventListener("mousedown", auto, false);
+window.addEventListener("mousedown", function() {
+  boolGo = true;
+  kramerStatic();
+}, false);
 window.addEventListener("mouseup", function() {
-  auto();
+  boolGo = false;
+	boolGo_reverse = false
   kramerStatic();
 }, false);
 
@@ -361,9 +366,11 @@ function handleTouchMove(evt) {
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
         if ( xDiff > 0 ) {
-            auto();
+		boolGo_reverse = false;
+		boolGo = true;
         } else {
-            auto_reverse();
+		boolGo = false;
+		boolGo_reverse = true;
         }                       
     } else {
         if ( yDiff > 0 ) {
