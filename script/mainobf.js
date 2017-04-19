@@ -207,6 +207,7 @@ window.addEventListener("touchcancel", absorbEvent, false);
 
 function runTheseFunctionsOnLoad() {
   window.setInterval(go, 10);
+  window.setInterval(go_reverse, 10);
   initialDialog();
   showDialog();
   kramerStatic();
