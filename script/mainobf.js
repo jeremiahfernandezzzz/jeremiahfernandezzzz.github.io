@@ -59,6 +59,16 @@ function forward() {
 	document.querySelector(".object-parallax").style.transform = "translateX(" + objects_parallax + "px)";
 	document.querySelector(".object-parallax2").style.transform = "translateX(" + objects_parallax2 + "px)";
 }
+
+function backward() {
+	bgY += 1;
+	bgX += 5;
+	objects_parallax += 10;
+	objects_parallax2 += 2;
+	document.querySelector(".bg").style.transform = "translateX(" + bgX + "px) translateY(" + bgY + "px)";
+	document.querySelector(".object-parallax").style.transform = "translateX(" + objects_parallax + "px)";
+	document.querySelector(".object-parallax2").style.transform = "translateX(" + objects_parallax2 + "px)";
+}
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
 /**
  * @param {?} startEvent
@@ -215,6 +225,34 @@ function runTheseFunctionsOnLoad() {
 function go() {
   if (boolGo == true && objects_parallax >= -19850) {
 	forward();
+    hideInitialDialog();
+    switchChar(-3640, -5E3, -7500);
+    changeDialog("I was Born on<br/>July 5, 1997", -3640);
+    changeDialog("I went<br/>to school", -5E3);
+    changeDialog("Then college<br/>happened", -7500);
+    changeDialog("I shifted<br/>courses", -8250);
+    changeDialog("mech. eng.<br/>is hard", -9E3);
+    changeDialog("<br/>I know stuff", -1E4);
+    changeDialog("some more stuff", -14500);
+    changeDialog("and willing to<br/>learn more :D", -18500);
+    objectUp(".hospital", -2500);
+    objectDown(".grade-school", -5E3);
+    objectUp(".high-school", -7500);
+    objectDown(".skill-set", -1E4);
+    objectDown(".html", -10750);
+    objectDown(".css", -11750);
+    objectDown(".javascript", -12750);
+    objectDown(".otherskill-set", -14250);
+    objectUp(".cpp", -15250);
+    objectUp(".mysql", -16250);
+    objectUp(".php", -17250);
+    objectUp(".rotator", -19600);
+  }
+}
+
+function go_reverse() {
+  if (boolGo == false && objects_parallax >= -19850) {
+	backward();
     hideInitialDialog();
     switchChar(-3640, -5E3, -7500);
     changeDialog("I was Born on<br/>July 5, 1997", -3640);
