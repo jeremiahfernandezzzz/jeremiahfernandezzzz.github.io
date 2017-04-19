@@ -15,36 +15,36 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var xCtrSun = 0;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var yCtrSun = 0;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var xCtrMoon = 0;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var yCtrMoon = 0;
 var object;
 var objectPopAt;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var charSwitchVal = -2250;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {boolean} */
+ /* @type {boolean} */
 var boolGo = false;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var bgX = 0;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var objects_parallax = 0;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var objects_parallax2 = 0;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
 var bgY = 0;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
 
@@ -151,17 +151,17 @@ function kramerStatic() {
 function switchChar(opt_attributes/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */, expectedNumberOfNonCommentArgs/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */, lastArrayIdSentFromServer) {
   if (objects_parallax <= opt_attributes) {
     /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
     charSwitchVal = -1500;
   }
   if (objects_parallax <= expectedNumberOfNonCommentArgs) {
     /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
     charSwitchVal = -750;
   }
   if (objects_parallax <= lastArrayIdSentFromServer) {
     /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {number} */
+ /* @type {number} */
     charSwitchVal = 0;
   }
   if (charSwitchVal == 0) {
@@ -246,11 +246,11 @@ function go() {
 function auto() {
   if (boolGo == true) {
     /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {boolean} */
+ /* @type {boolean} */
     boolGo = false;
   } else {
     /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- @type {boolean} */
+ /* @type {boolean} */
     boolGo = true;
   }
 }
@@ -280,6 +280,77 @@ function objectRotate(startEvent/*please email jeremiahfernandezzzz@gmail.com re
     if (objects_parallax < opt_attributes) {
       document/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.querySelector(startEvent)/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.style/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.transform = "rotate(-90deg)";
       document/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.querySelector(startEvent)/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.style/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.transition = "transform 1/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.0s cubic-bezier(/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.17/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.67/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.46/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */.99)";
+    }
+  }
+}
+;
+  if (boolGo == true && objects_parallax >= -19850) {
+	forward();
+    hideInitialDialog();
+    switchChar(-3640/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -5E3/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -7500);
+    changeDialog("I was Born on<br/>July 5/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, 1997"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -3640);
+    changeDialog("I went<br/>to school"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -5E3);
+    changeDialog("Then college<br/>happened"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -7500);
+    changeDialog("I shifted<br/>courses"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -8250);
+    changeDialog("mech/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script. eng/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.<br/>is hard"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -9E3);
+    changeDialog("<br/>I know stuff"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -1E4);
+    changeDialog("some more stuff"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -14500);
+    changeDialog("and willing to<br/>learn more :D"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -18500);
+    objectUp("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.hospital"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -2500);
+    objectDown("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.grade-school"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -5E3);
+    objectUp("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.high-school"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -7500);
+    objectDown("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.skill-set"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -1E4);
+    objectDown("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.html"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -10750);
+    objectDown("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.css"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -11750);
+    objectDown("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.javascript"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -12750);
+    objectDown("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.otherskill-set"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -14250);
+    objectUp("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.cpp"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -15250);
+    objectUp("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.mysql"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -16250);
+    objectUp("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.php"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -17250);
+    objectUp("/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.rotator"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, -19600);
+  }
+}
+/** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script
+
+ * @return {undefined}
+ */
+function auto() {
+  if (boolGo == true) {
+    /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script
+ @type {boolean} */
+    boolGo = false;
+  } else {
+    /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script
+ @type {boolean} */
+    boolGo = true;
+  }
+}
+window/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.addEventListener("load"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, runTheseFunctionsOnLoad/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, false);
+window/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.addEventListener("touchstart"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, auto/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, false);
+window/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.addEventListener("touchend"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, function() {
+  auto();
+  kramerStatic();
+}/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, false);
+window/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.addEventListener("mousedown"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, auto/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, false);
+window/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.addEventListener("mouseup"/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, function() {
+  auto();
+  kramerStatic();
+}/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, false);
+
+/** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script
+
+ * @param {?} startEvent
+ * @param {number} opt_attributes
+ * @return {undefined}
+ */
+function objectRotate(startEvent/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script, opt_attributes) {
+  if (objects_parallax <= opt_attributes && objects_parallax >= opt_attributes - 900) {
+    document/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.querySelector(startEvent)/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.style/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.transform = "rotate(0deg)";
+    document/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.querySelector(startEvent)/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.style/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.transition = "transform 1/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.0s cubic-bezier(/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.17/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.67/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.46/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.99)";
+  } else {
+    if (objects_parallax < opt_attributes) {
+      document/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.querySelector(startEvent)/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.style/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.transform = "rotate(-90deg)";
+      document/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.querySelector(startEvent)/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.style/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.transition = "transform 1/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.0s cubic-bezier(/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.17/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.67/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.46/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script,/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script.99)";
     }
   }
 }
