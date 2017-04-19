@@ -34,6 +34,7 @@ var charSwitchVal = -2250;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
  /* @type {boolean} */
 var boolGo = false;
+var boolGo_reverse = false;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
  /* @type {number} */
 var bgX = 0;
@@ -252,7 +253,7 @@ function go() {
 }
 
 function go_reverse() {
-  if (boolGo == false && objects_parallax < 0) {
+  if (boolGo_reverse == true && objects_parallax < 0) {
 	backward();
     hideInitialDialog();
     switchChar(-3640, -5E3, -7500);
@@ -293,8 +294,21 @@ function auto() {
     boolGo = true;
   }
 }
+
+function auto_reverse() {
+  if (boolGo_reverse == true) {
+    /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
+ /* @type {boolean} */
+    boolGo_reverse = false;
+  } else {
+    /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
+ /* @type {boolean} */
+    boolGo_reverse = true;
+  }
+}
+
 window.addEventListener("load", runTheseFunctionsOnLoad, false);
-window.addEventListener("touchstart", auto, false);
+//window.addEventListener("touchstart", auto, false);
 window.addEventListener("touchend", function() {
   auto();
   kramerStatic();
@@ -322,3 +336,43 @@ function objectRotate(startEvent, opt_attributes) {
     }
   }
 }
+
+document.addEventListener('touchstart', handleTouchStart, false);        
+document.addEventListener('touchmove', handleTouchMove, false);
+
+var xDown = null;                                                        
+var yDown = null;                                                        
+
+function handleTouchStart(evt) {                                         
+    xDown = evt.touches[0].clientX;                                      
+    yDown = evt.touches[0].clientY;                                      
+};                                                
+
+function handleTouchMove(evt) {
+    if ( ! xDown || ! yDown ) {
+        return;
+    }
+
+    var xUp = evt.touches[0].clientX;                                    
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = xDown - xUp;
+    var yDiff = yDown - yUp;
+
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+        if ( xDiff > 0 ) {
+            auto();
+        } else {
+            auto_reverse();
+        }                       
+    } else {
+        if ( yDiff > 0 ) {
+            /* up swipe */ 
+        } else { 
+            /* down swipe */
+        }                                                                 
+    }
+    /* reset values */
+    xDown = null;
+    yDown = null;                                             
+};
