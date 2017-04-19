@@ -252,7 +252,7 @@ function go() {
 }
 
 function go_reverse() {
-  if (boolGo == false && objects_parallax >= -19850) {
+  if (boolGo == false && objects_parallax <= 0) {
 	backward();
     hideInitialDialog();
     switchChar(-3640, -5E3, -7500);
