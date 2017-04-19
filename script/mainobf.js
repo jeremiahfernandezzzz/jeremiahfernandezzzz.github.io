@@ -194,15 +194,15 @@ function switchChar(opt_attributes, expectedNumberOfNonCommentArgs, lastArrayIdS
  */
 function absorbEvent(event) {
   var e = event || window.event;
-  //e.preventDefault && e.preventDefault();
+  e.preventDefault && e.preventDefault();
   e.stopPropagation && e.stopPropagation();
   e.cancelBubble = true;
   e.returnValue = false;
   return false;
 }
 
-window.addEventListener("touchstart", absorbEvent, false);
-window.addEventListener("touchmove", absorbEvent, false);
+//window.addEventListener("touchstart", absorbEvent, false);
+//window.addEventListener("touchmove", absorbEvent, false);
 window.addEventListener("touchend", absorbEvent, false);
 window.addEventListener("touchcancel", absorbEvent, false);
 
