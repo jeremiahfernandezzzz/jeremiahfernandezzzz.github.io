@@ -194,7 +194,7 @@ function switchChar(opt_attributes, expectedNumberOfNonCommentArgs, lastArrayIdS
  */
 function absorbEvent(event) {
   var e = event || window.event;
-  e.preventDefault && e.preventDefault();
+  //e.preventDefault && e.preventDefault();
   e.stopPropagation && e.stopPropagation();
   e.cancelBubble = true;
   e.returnValue = false;
