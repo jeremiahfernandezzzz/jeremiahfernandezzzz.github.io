@@ -16,18 +16,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
  /* @type {number} */
-var xCtrSun = 0;
-/** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- /* @type {number} */
-var yCtrSun = 0;
-/** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- /* @type {number} */
-var xCtrMoon = 0;
-/** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
- /* @type {number} */
-var yCtrMoon = 0;
-var object;
-var objectPopAt;
+//var object;
+//var objectPopAt;
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
  /* @type {number} */
 var charSwitchVal = -2250;
@@ -201,8 +191,8 @@ function absorbEvent(event) {
   return false;
 }
 
-//window.addEventListener("touchstart", absorbEvent, false);
-//window.addEventListener("touchmove", absorbEvent, false);
+window.addEventListener("touchstart", absorbEvent, false);
+window.addEventListener("touchmove", absorbEvent, false);
 window.addEventListener("touchend", absorbEvent, false);
 window.addEventListener("touchcancel", absorbEvent, false);
 
