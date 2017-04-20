@@ -123,7 +123,7 @@ function hideDialog() {
  * @return {undefined}
  */
 function initialDialog() {
-  document.querySelector(".dialog").innerHTML = "<br/>hi! touch or<br />click to ->";
+  document.querySelector(".dialog").innerHTML = "<br/>hi! swipe or<br />click to ->";
 }
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
 /**
