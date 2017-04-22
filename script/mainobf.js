@@ -266,7 +266,7 @@ function go_reverse() {
     objectUp(".cpp", -15250);
     objectUp(".mysql", -16250);
     objectUp(".php", -17250);
-    objectUp(".rotator", -19600);
+    objectUp(".rotator", -18600);
   }
 }
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
