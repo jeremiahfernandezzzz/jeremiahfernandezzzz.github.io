@@ -166,6 +166,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	top: 100vh;
 }
 
+h1, h2 {
+	position: absolute;
+	top: 50vh;
+}
+
 .hospital {
 	position: absolute;
 	background: url(../image/hospital.png);
