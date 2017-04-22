@@ -158,12 +158,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
 .title {
-	position: absolute;
+	position: relative;
 	text-align: center;
 	font-family: Pixeled;
 	z-index: 99;
 	color: white;
-	bottom: -340px;
+	bottom: 10vh;
 	left: 35vw;
 }
 
