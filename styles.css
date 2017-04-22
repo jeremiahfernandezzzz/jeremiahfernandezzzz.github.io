@@ -158,13 +158,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
 .title {
-	position: relative;
+	position: absolute;
 	text-align: center;
 	font-family: Pixeled;
 	z-index: 99;
 	color: white;
-	bottom: 30vh;
-	left: 50vw;
+	top: 100vh;
 }
 
 .hospital {
