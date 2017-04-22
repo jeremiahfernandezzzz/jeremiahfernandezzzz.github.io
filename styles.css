@@ -381,6 +381,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 body {
 	overflow: hidden;
+}
+
+body :not(a) {
 	user-select: none;
 }
 
