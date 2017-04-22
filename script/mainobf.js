@@ -215,7 +215,7 @@ function runTheseFunctionsOnLoad() {
  * @return {undefined}
  */
 function go() {
-  if (boolGo == true && objects_parallax >= -18850) {
+  if (boolGo == true && objects_parallax >= -19850) {
 	forward();
     hideInitialDialog();
     switchChar(-3640, -5E3, -7500);
