@@ -215,7 +215,7 @@ function runTheseFunctionsOnLoad() {
  * @return {undefined}
  */
 function go() {
-  if (boolGo == true && objects_parallax >= -19850) {
+  if (boolGo == true && objects_parallax >= -18850) {
 	forward();
     hideInitialDialog();
     switchChar(-3640, -5E3, -7500);
@@ -238,7 +238,7 @@ function go() {
     objectUp(".cpp", -15250);
     objectUp(".mysql", -16250);
     objectUp(".php", -17250);
-    objectUp(".rotator", -19600);
+    objectUp(".rotator", -18250);
   }
 }
 
@@ -266,7 +266,7 @@ function go_reverse() {
     objectUp(".cpp", -15250);
     objectUp(".mysql", -16250);
     objectUp(".php", -17250);
-    objectUp(".rotator", -18600);
+    objectUp(".rotator", -18250);
   }
 }
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
