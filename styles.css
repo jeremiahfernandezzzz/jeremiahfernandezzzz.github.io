@@ -397,10 +397,3 @@ body :not(a) {
 	opacity: 0.9;
 }
 
-.project {
-	position: absolute;
-	font-size: 14pt;
-	font-family: slkscr;
-	text-align: right;
-	color: white;
-}
