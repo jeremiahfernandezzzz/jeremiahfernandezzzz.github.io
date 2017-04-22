@@ -163,8 +163,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	font-family: Pixeled;
 	z-index: 99;
 	color: white;
-	bottom: 50vh;
-	left: 35vw;
+	bottom: 30vh;
+	left: 50vw;
 }
 
 .hospital {
