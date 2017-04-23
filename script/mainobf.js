@@ -123,7 +123,7 @@ function hideDialog() {
  * @return {undefined}
  */
 function initialDialog() {
-  document.querySelector(".dialog").innerHTML = "<br/>hi! click or<br />swipe then hold to ->";
+  document.querySelector(".dialog").innerHTML = "<br/>click or<br />swipe/hold to ->";
 }
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
 /**
@@ -231,6 +231,7 @@ function go_reverse() {
 function stuffOtherThanForward() {
     hideInitialDialog();
     switchChar(-1710, -4830, -7080);
+    changeDialog("Hi There!", -1750);
     changeDialog("I was Born on<br/>July 5, 1997", -3640);
     changeDialog("I went<br/>to school", -5E3);
     changeDialog("Then college<br/>happened", -7500);
