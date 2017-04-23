@@ -217,35 +217,18 @@ function runTheseFunctionsOnLoad() {
 function go() {
   if (boolGo == true && objects_parallax >= -19180) {
 	forward();
-    hideInitialDialog();
-    switchChar(-3640, -5E3, -7500);
-    changeDialog("I was Born on<br/>July 5, 1997", -3640);
-    changeDialog("I went<br/>to school", -5E3);
-    changeDialog("Then college<br/>happened", -7500);
-    changeDialog("I shifted<br/>courses", -8250);
-    changeDialog("mech. eng.<br/>is hard", -9E3);
-    changeDialog("<br/>I know stuff", -1E4);
-    changeDialog("some more stuff", -14500);
-    changeDialog("and willing to<br/>learn more :D", -18500);
-    objectDown(".title", -200);
-    objectUp(".hospital", -2500);
-    objectDown(".grade-school", -5E3);
-    objectUp(".high-school", -7500);
-    objectDown(".skill-set", -1E4);
-    objectDown(".html", -10750);
-    objectDown(".css", -11750);
-    objectDown(".javascript", -12750);
-    objectDown(".otherskill-set", -14250);
-    objectUp(".cpp", -15250);
-    objectUp(".mysql", -16250);
-    objectUp(".php", -17250);
-    objectUp(".rotator", -18250);
+	stuffOtherThanForward()
   }
 }
 
 function go_reverse() {
   if (boolGo_reverse == true && objects_parallax < 0) {
 	backward();
+  	stuffOtherThanForward();
+  }
+}
+
+function stuffOtherThanForward() {
     hideInitialDialog();
     switchChar(-1710, -5E3, -7500);
     changeDialog("I was Born on<br/>July 5, 1997", -3640);
@@ -269,7 +252,6 @@ function go_reverse() {
     objectUp(".mysql", -16250);
     objectUp(".php", -17250);
     objectUp(".rotator", -18250);
-  }
 }
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
 /**
