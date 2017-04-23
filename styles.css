@@ -163,7 +163,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	font-family: Pixeled;
 	z-index: 99;
 	color: white;
-	top: -100vh;
+	top: 50vh;
 }
 
 h1, h2 {
