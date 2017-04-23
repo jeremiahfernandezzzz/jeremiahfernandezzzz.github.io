@@ -240,7 +240,6 @@ function stuffOtherThanForward() {
     changeDialog("<br/>I know stuff", -1E4);
     changeDialog("some more stuff", -14500);
     changeDialog("and willing to<br/>learn more :D", -18500);
-    objectDown(".title", -200);
     objectUp(".hospital", -2500);
     objectDown(".grade-school", -5E3);
     objectUp(".high-school", -7500);
