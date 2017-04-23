@@ -247,7 +247,7 @@ function go_reverse() {
   if (boolGo_reverse == true && objects_parallax < 0) {
 	backward();
     hideInitialDialog();
-    switchChar(-3640, -5E3, -7500);
+    switchChar(-1710, -5E3, -7500);
     changeDialog("I was Born on<br/>July 5, 1997", -3640);
     changeDialog("I went<br/>to school", -5E3);
     changeDialog("Then college<br/>happened", -7500);
