@@ -356,7 +356,6 @@ h1, h2 {
 	height: 198px;
 	background: url(../image/kramer_sprites.png);
 	bottom: 10vh;
-	animation: jump-char 1.0s infinite;
 	//transition: bottom 1.0s;
 	text-align: center;
 	font-family: Pixeled;
