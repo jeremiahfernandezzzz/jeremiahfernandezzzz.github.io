@@ -47,7 +47,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 @keyframes jump-char{
 	0% {bottom: 8vh;}
-	20% {bottom: 15vh;}
+	5% {bottom: 15vh;}
 	100% {bottom: 8vh;}
 }
 
