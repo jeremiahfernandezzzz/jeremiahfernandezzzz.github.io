@@ -361,7 +361,7 @@ h1, h2 {
 	text-align: center;
 	font-family: Pixeled;
 	font-size: 0;
-	animation: jump-char infinite .5s;
+	animation: jump-char infinite 1s;
 }
 
 .ghost {
