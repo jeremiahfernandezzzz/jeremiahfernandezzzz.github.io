@@ -123,7 +123,7 @@ function hideDialog() {
  * @return {undefined}
  */
 function initialDialog() {
-  document.querySelector(".dialog").innerHTML = "<br/>click or swipe<br />then hold to ->";
+  document.querySelector(".dialog").innerHTML = "<br/>drag left<br />or click to ->";
 }
 /** please email jeremiahfernandezzzz@gmail/*please email jeremiahfernandezzzz@gmail.com regarding the use of this script */
 /**
